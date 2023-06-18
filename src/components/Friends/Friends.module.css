@@ -16,3 +16,11 @@
   border-radius: 50%;
   border: 1px solid black;
 }
+.online {
+  composes: status;
+  background-color: green;
+}
+.offline {
+  composes: status;
+  background-color: red;
+}
